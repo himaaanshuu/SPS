@@ -1,0 +1,9 @@
+.form-section-block { margin-top: 18px; }
+.steps { display: grid; gap: 10; margin-top: 14px; }
+.step { display: flex; align-items: center; gap: 10; font-size: 14px; color: var(--ink-3); }
+.step-dot { width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--line-strong); }
+.step.active { color: var(--ink); font-weight: 650; }
+.step.active .step-dot { border-color: var(--action); background: var(--action); animation: blink 1s infinite; }
+.step.done { color: var(--ink-2); }
+.step.done .step-dot { border-color: var(--action); background: transparent; }
+.rule-chip { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; font-size: 12px; border: 1px solid var(--line); background: var(--surface-2); padding: 10px 14px; border-radius: 4px; }

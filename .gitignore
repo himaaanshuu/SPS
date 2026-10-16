@@ -1,0 +1,33 @@
+# python / venv
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# models / data artifacts
+models/*.pkl
+models/*.h5
+models/*.keras
+*.db
+*.sqlite3
+
+# node
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# env
+.env
+.env.local
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# notebooks
+.ipynb_checkpoints/
+backend/models/*.pkl
+backend/models/*.keras
+backend/models/*.h5

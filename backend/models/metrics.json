@@ -1,0 +1,43 @@
+{
+  "source": "synthetic-demo",
+  "n_rows": 1500,
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.8033,
+      "precision": 0.843,
+      "recall": 0.8192,
+      "f1": 0.8309,
+      "roc_auc": 0.8921
+    },
+    "random_forest": {
+      "accuracy": 0.7867,
+      "precision": 0.8192,
+      "recall": 0.8192,
+      "f1": 0.8192,
+      "roc_auc": 0.8662
+    },
+    "neural_network": {
+      "accuracy": 0.8067,
+      "precision": 0.8563,
+      "recall": 0.8079,
+      "f1": 0.8314,
+      "roc_auc": 0.8851,
+      "backend": "sklearn-mlp"
+    },
+    "fuzzy_system": {
+      "accuracy": 0.68,
+      "precision": 0.6976,
+      "recall": 0.8079,
+      "f1": 0.7487,
+      "roc_auc": 0.7093
+    },
+    "neuro_fuzzy": {
+      "accuracy": 0.7533,
+      "precision": 0.7784,
+      "recall": 0.8136,
+      "f1": 0.7956,
+      "roc_auc": 0.842
+    }
+  },
+  "best_model": "neural_network"
+}
